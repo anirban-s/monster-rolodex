@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {CardList} from './components/card-list/card-list.component';
 import {SearchBox} from './components/Search/search.component';
+import Scroll from './components/scroll/scroll.component';
 import './App.css';
 
 class App extends Component {
@@ -33,7 +34,9 @@ class App extends Component {
       <div className="App">
         <h1>Monster Rolodex</h1>
         <SearchBox placeholder="search monster" handleChange={this.handleChangeEvent}/>
-        <CardList monsters={filteredMonster} />
+        <Scroll>
+          <CardList monsters={filteredMonster} />
+        </Scroll>
       </div>
     );
   }
