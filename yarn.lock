@@ -7206,7 +7206,7 @@ postcss-initial@^3.0.0:
   resolved "https://registry.yarnpkg.com/postcss-initial/-/postcss-initial-3.0.0.tgz#1772512faf11421b791fb2ca6879df5f68aa0517"
   integrity sha512-WzrqZ5nG9R9fUtrA+we92R4jhVvEB32IIRTzfIG/PLL8UV4CvbF1ugTEHEFX6vWxl41Xt5RTCJPEZkuWzrOM+Q==
   dependencies:
-    lodash.template "^4.2.4"
+    lodash.template "^4.5.0"
     postcss "^7.0.2"
 
 postcss-lab-function@^2.0.1:
@@ -8215,7 +8215,7 @@ request-promise-core@1.1.2:
   resolved "https://registry.yarnpkg.com/request-promise-core/-/request-promise-core-1.1.2.tgz#339f6aababcafdb31c799ff158700336301d3346"
   integrity sha512-UHYyq1MO8GsefGEt7EprS8UrXsm1TxEvFUX1IMTuSLU2Rh7fTIdFtl8xD7JiEYiWU2dl+NYAjCTksTehQUxPag==
   dependencies:
-    lodash "^4.17.11"
+    lodash "^4.17.13"
 
 request-promise-native@^1.0.5:
   version "1.0.7"
